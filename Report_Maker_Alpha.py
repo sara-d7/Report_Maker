@@ -38,7 +38,7 @@ def dict_generator(doc):
 
 #****************************************USER INPUT****************************************************
 
-    Client_Name = 'Mr. Sarad Chand'          
+    Client_Name = 'Mr. John Nash'          
     Date = 'JUNE 2024'   
     no_of_stories = 3  
     floor_height_general= 2.870
@@ -47,7 +47,7 @@ def dict_generator(doc):
     bldg_len = 5.715
     bldg_width = 8.433     
     building_type = 'Residential'
-    location = 'Bheemdatt-09, Kanchanpur'
+    location = 'Kathmandu-10'
     footing_type = 'Strap Footing'
     col_size = '14" x 14"'
     beam_size = '9" x 14"'
@@ -273,3 +273,4 @@ repack_docx(extract_to, new_docx_path)
 print(f"Document saved as '{new_docx_path}'")
 print(f"{'*'*20}All Operations Run Successfully{'*'*20}")
 print(f"\n{'*'*20}PROGRAM END{'*'*20}")
+
